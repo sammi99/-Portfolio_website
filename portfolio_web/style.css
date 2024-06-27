@@ -1,0 +1,95 @@
+body  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(241, 241, 241)
+}
+
+header  {
+    background-color: rgb(125, 210, 249);
+    color: white;
+    padding: 1rem;
+    text-align :center;
+}
+
+nav ul :hover {
+    list-style-type:square;
+    padding: 10px;
+    background-color: #e4e432;
+    border-radius: 5px;
+    text-align:justify;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+  
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 0 10px rgba(11, 11, 11, 0.312);
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+
+
+.project img {
+    
+    width: 800px;
+    height:auto ;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 1rem auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f50606;
+}
+
+#form-status {
+    margin-top: 1rem;
+    color: green;
+}
